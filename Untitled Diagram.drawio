@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T19:44:06.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="XhSfZqoGZJ1YS5EYdHOZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T22:10:17.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="dr_DdKLGw3yVshgtXgfv" type="github">
   <diagram id="oiZPvLN5zcSZ0jYLkCbU" name="Page-1">
-    <mxGraphModel dx="2284" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#c5c7c9" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,8 +46,8 @@
         <mxCell id="7ZX6jRbZQ-G08w3YdbLo-14" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;sketch=0;strokeColor=default;fontSize=16;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="54" y="110" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-22" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="420" y="170" width="60" height="30" as="geometry" />
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-22" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="159" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ZX6jRbZQ-G08w3YdbLo-23" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="170" width="60" height="30" as="geometry" />
@@ -63,6 +63,21 @@
             <mxPoint x="820" y="209.5" as="sourcePoint" />
             <mxPoint x="900" y="209.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-28" value="&lt;b&gt;The process&lt;/b&gt;&lt;br&gt;&lt;b&gt;1&lt;/b&gt;. External data(messages) are ingested into Kafta.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;2&lt;/b&gt;. Apache spark streaming will read the messages from kafta and ingested the data into data lake where there are different layers sequentially, raw, base and access respectively. The data are cleaned/processed to a certain level before ingesting into respective layers.&lt;br&gt;Raw layer: The ingested data are ingested as it is without any cleaning/processing.&lt;br&gt;Base layer: Data is fetched from Raw layer and is cleaned and processed and is ready to be aggregated in next stage&lt;br&gt;Access layer: Data is fetched from Base layer and is aggregated and maybe joined with other tables based on business requirements.&lt;br&gt;&lt;br&gt;&lt;b&gt;3&lt;/b&gt;. From Access layer the datasets are ingested into a data base which the analyst can view and to analysis.&amp;nbsp;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-270" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-29" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="165" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-30" value="&lt;b&gt;2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-31" value="&lt;b&gt;3&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-32" value="&lt;b&gt;Assumptions before answering the below questions:&lt;/b&gt;&lt;br&gt;The journey_updates will send 3 different status for a booked journey:&amp;nbsp;&lt;br&gt;&quot;BOOKED_NOT_STARTED&quot;,&amp;nbsp;&quot;STARTED&quot; and&amp;nbsp;&quot;ENDED&quot;. Each status is one data set which will be joined together in the Access Layer by the column&amp;nbsp;journey_id.&lt;br&gt;Vehicle tracking only updates the vehicle every 30min if it is not moving and more often if it is moving.&amp;nbsp;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;b&gt;Questions that would be really important for the business:&lt;/b&gt;&lt;br&gt;1. &lt;i&gt;For journeys that are in state BOOKED_NOT_STARTED{&lt;br&gt;What&#39;s the expected number of journeys that will start in the next 30&lt;br&gt;minutes?&lt;br&gt;Over the next 72 hours, what&#39;s the expected maximum number of&lt;br&gt;journeys that will be ongoing at the same time?&lt;br&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;2. &lt;i&gt;For journeys that are in state STARTED{&lt;br&gt;Which journeys are not expected to end within their alloted time?&lt;/i&gt;&lt;br&gt;&lt;br&gt;3.&lt;i&gt; For journeys that are in state ENDED{&lt;br&gt;How far has the car travelled for a certain user&#39;s journey (based on the&lt;br&gt;path of the car&#39;s positions)?&lt;br&gt;At which locations has the car/user stopped for longer than X minutes?&lt;br&gt;(X is typically a parameter)&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="300" width="530" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
