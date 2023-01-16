@@ -1,83 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T22:10:17.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="dr_DdKLGw3yVshgtXgfv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T21:14:35.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ECiaLq1LLRWMDRYfSvj3" version="20.8.5" type="github">
   <diagram id="oiZPvLN5zcSZ0jYLkCbU" name="Page-1">
-    <mxGraphModel dx="2284" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#c5c7c9" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#c5c7c9" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="239" y="180" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;External sources&lt;br&gt;(vehicle_trackings. journey_updates)&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;External sources&lt;br&gt;(vehicle_trackings. journey_updates)&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-11" y="150" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7ZX6jRbZQ-G08w3YdbLo-2" target="7ZX6jRbZQ-G08w3YdbLo-1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7ZX6jRbZQ-G08w3YdbLo-2" target="7ZX6jRbZQ-G08w3YdbLo-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="469" y="410" as="sourcePoint" />
             <mxPoint x="519" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-4" value="Kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-4" value="Kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="279" y="195" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-5" value="Bucket" style="outlineConnect=0;fontColor=none;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage;noLabel=1;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-5" value="Bucket" style="outlineConnect=0;fontColor=none;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage;noLabel=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="180" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-8" value="Data Lake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-8" value="Data Lake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="470" y="250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;sketch=0;strokeColor=default;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;sketch=0;strokeColor=default;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="740" y="160" width="60" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-10" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-10" value="DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="710" y="270" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="389" y="209.5" as="sourcePoint" />
             <mxPoint x="490" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="210" as="sourcePoint" />
             <mxPoint x="730" y="209.875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-14" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;sketch=0;strokeColor=default;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-14" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;sketch=0;strokeColor=default;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="54" y="110" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-22" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-22" value="&lt;b&gt;1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="159" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-23" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-23" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/gnomeicontheme/48x48/apps/postscript-viewer.png;sketch=0;strokeColor=default;fontSize=16;fontColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/gnomeicontheme/48x48/apps/postscript-viewer.png;sketch=0;strokeColor=default;fontSize=16;fontColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="920" y="177" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-25" value="Viewing data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-25" value="Viewing data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="914" y="240" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" edge="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="209.5" as="sourcePoint" />
             <mxPoint x="900" y="209.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-28" value="&lt;b&gt;The process&lt;/b&gt;&lt;br&gt;&lt;b&gt;1&lt;/b&gt;. External data(messages) are ingested into Kafta.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;2&lt;/b&gt;. Apache spark streaming will read the messages from kafta and ingested the data into data lake where there are different layers sequentially, raw, base and access respectively. The data are cleaned/processed to a certain level before ingesting into respective layers.&lt;br&gt;Raw layer: The ingested data are ingested as it is without any cleaning/processing.&lt;br&gt;Base layer: Data is fetched from Raw layer and is cleaned and processed and is ready to be aggregated in next stage&lt;br&gt;Access layer: Data is fetched from Base layer and is aggregated and maybe joined with other tables based on business requirements.&lt;br&gt;&lt;br&gt;&lt;b&gt;3&lt;/b&gt;. From Access layer the datasets are ingested into a data base which the analyst can view and to analysis.&amp;nbsp;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-28" value="&lt;b&gt;The process&lt;/b&gt;&lt;br&gt;&lt;b&gt;1&lt;/b&gt;. External data(messages) are ingested into Kafta.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;2&lt;/b&gt;. Apache spark streaming will read the messages from kafta and ingested the data into data lake where there are different layers sequentially, raw, base and access respectively. The data are cleaned/processed to a certain level before ingesting into respective layers.&lt;br&gt;Raw layer: The ingested data are ingested as it is without any cleaning/processing.&lt;br&gt;Base layer: Data is fetched from Raw layer and is cleaned and processed and is ready to be aggregated in next stage&lt;br&gt;Access layer: Data is fetched from Base layer and is aggregated and maybe joined with other tables based on business requirements.&lt;br&gt;&lt;br&gt;&lt;b&gt;3&lt;/b&gt;. From Access layer the datasets are ingested into a data base which the analyst can view and to analysis.&amp;nbsp;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="-270" width="560" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-29" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-29" value="Apache spark" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="425" y="165" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-30" value="&lt;b&gt;2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-30" value="&lt;b&gt;2&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-31" value="&lt;b&gt;3&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" vertex="1" parent="1">
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-31" value="&lt;b&gt;3&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=16;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="820" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-32" value="&lt;b&gt;Assumptions before answering the below questions:&lt;/b&gt;&lt;br&gt;The journey_updates will send 3 different status for a booked journey:&amp;nbsp;&lt;br&gt;&quot;BOOKED_NOT_STARTED&quot;,&amp;nbsp;&quot;STARTED&quot; and&amp;nbsp;&quot;ENDED&quot;. Each status is one data set which will be joined together in the Access Layer by the column&amp;nbsp;journey_id.&lt;br&gt;Vehicle tracking only updates the vehicle every 30min if it is not moving and more often if it is moving.&amp;nbsp;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;b&gt;Questions that would be really important for the business:&lt;/b&gt;&lt;br&gt;1. &lt;i&gt;For journeys that are in state BOOKED_NOT_STARTED{&lt;br&gt;What&#39;s the expected number of journeys that will start in the next 30&lt;br&gt;minutes?&lt;br&gt;Over the next 72 hours, what&#39;s the expected maximum number of&lt;br&gt;journeys that will be ongoing at the same time?&lt;br&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;2. &lt;i&gt;For journeys that are in state STARTED{&lt;br&gt;Which journeys are not expected to end within their alloted time?&lt;/i&gt;&lt;br&gt;&lt;br&gt;3.&lt;i&gt; For journeys that are in state ENDED{&lt;br&gt;How far has the car travelled for a certain user&#39;s journey (based on the&lt;br&gt;path of the car&#39;s positions)?&lt;br&gt;At which locations has the car/user stopped for longer than X minutes?&lt;br&gt;(X is typically a parameter)&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-45" y="300" width="530" height="270" as="geometry" />
+        <mxCell id="7ZX6jRbZQ-G08w3YdbLo-32" value="&lt;b&gt;Assumptions before answering the below questions:&lt;/b&gt;&lt;br&gt;The journey_updates will send 3 different status for a booked journey:&amp;nbsp;&lt;br&gt;&quot;BOOKED_NOT_STARTED&quot;,&amp;nbsp;&quot;STARTED&quot; and&amp;nbsp;&quot;ENDED&quot;. Each status is a separate data set which can be joined together in the Access Layer by the column&amp;nbsp;journey_id. The times are assumed to be in local time that is Swedish time&lt;br&gt;Vehicle tracking only updates the vehicle every 30min if it is not moving and more often if it is moving.&amp;nbsp;&lt;br&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;b&gt;Questions that would be really important for the business:&lt;/b&gt;&lt;br&gt;1. &lt;i&gt;For journeys that are in state BOOKED_NOT_STARTED:&lt;/i&gt;&lt;br&gt;&lt;i&gt;What&#39;s the expected number of journeys that will start in the next 30&lt;/i&gt;&lt;br&gt;&lt;i&gt;minutes?&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;font color=&quot;#ff4621&quot;&gt;-Can be answered with the data set&amp;nbsp;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;BOOKED_NOT_STARTED &lt;/i&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;where you filter between current time and current time +30min and then do a count con jounery_id&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;i&gt;Over the next 72 hours, what&#39;s the expected maximum number of&lt;/i&gt;&lt;br&gt;&lt;i&gt;journeys that will be ongoing at the same time?&lt;br&gt;&lt;/i&gt;&lt;font color=&quot;#ff4621&quot;&gt;- Filter from current time to current time + 72hours and the group by requested_start column and then do a count on journey_id&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;2. &lt;i&gt;For journeys that are in state STARTED:&lt;br&gt;Which journeys are not expected to end within their alloted time?&lt;br&gt;&lt;/i&gt;&lt;font color=&quot;#ff4621&quot;&gt;Not sure if I understood the question correctly but if the question is requested_end (BOOKED_NOT_STARTED) &amp;lt;= actual_end (ENDED) because the state is STARTED and we have not got the next state information, that is ENDED which we need to answer the question&lt;/font&gt;&lt;br&gt;&lt;br&gt;3.&lt;i&gt; For journeys that are in state ENDED:&lt;/i&gt;&lt;br&gt;&lt;i&gt;How far has the car travelled for a certain user&#39;s journey (based on the&lt;/i&gt;&lt;br&gt;&lt;i&gt;path of the car&#39;s positions)?&lt;/i&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#ff4621&quot;&gt;- The data set should be joined with the data sets STARTED on journey_id column and then with the data set vehicle trackings on car_id column. The time in vehicle trackings need to be converted to local swedish time so the time format is matching with the data sets ENDED and STARTED. Then we can filter the joined tables on actual_start and actual_end. We can then take the coordinates for respectively time and calculate the distance using Haversine formula.&lt;br&gt;&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;i&gt;At which locations has the car/user stopped for longer than X minutes?&lt;/i&gt;&lt;br&gt;&lt;i&gt;(X is typically a parameter)&lt;/i&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="320" width="1170" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
